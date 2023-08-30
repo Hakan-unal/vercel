@@ -11,8 +11,11 @@ const App = () => {
 
   return (<Row justify={"center"}>
 
-
-    <Switch unCheckedChildren={<div>TR</div>} checkedChildren={<div>EN</div>} onChange={(checked) => setTranslate(checked)} />
+    <Result
+      icon={<GiRabbit color='blue' size={100} />}
+      title="Coming soon..."
+    />
+    {/* <Switch unCheckedChildren={<div>TR</div>} checkedChildren={<div>EN</div>} onChange={(checked) => setTranslate(checked)} />
 
     <Col sm={24}>
 
@@ -55,7 +58,7 @@ const App = () => {
 
     <Col xs={{ span: 12 }}>
       <Image width={"100%"} src='https://miro.medium.com/v2/resize:fit:1400/1*pJRJgw1Vj-1MjhtQFZAZRA.png' />
-    </Col>
+    </Col> */}
 
 
   </Row>
